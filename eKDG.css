@@ -1209,6 +1209,15 @@ var {
     /* Eski RMSDK'lerde yukarıdaki iki özellik desteklenmiyor */
 }
 
+.dropcaps, .ilk-buyuk-harf {
+    font-weight: normal;
+    font-size: 320%;
+    float: left;
+    margin-top: -0.3225em;
+    margin-bottom: -0.3245em;
+    margin-right: 0.1245em;
+}
+
 .underline, .alti-cizili {
     text-decoration: underline;
 }
@@ -1279,20 +1288,31 @@ var {
         font-weight: normal;
         /* Sayısal yazı tipi ölçüleri KindleGen için sorun çıkarıyor, CSS üzerine başka bir yerde sayısal bir değer kullanıldıysa sıfırladığımızdan emin oluyoruz. */
     }
+
     b,
     strong,
     .bold, .kalin {
         font-weight: bold;
     }
+
     h1,
     h2 {
         line-height: 1.2;
         /* Kindle'ın desteklediği min. değer */
     }
+
     .w-80, .g-80 {
         width: 78%;
         /* Çünkü ben Kindle'ın a... */
         margin: 1.5em 11%;
+    }
+
+    .dropcaps, .ilk-buyuk-harf {
+        font-weight:normal;
+        font-size:320%;
+        float:left;
+        margin-top:-0.3225em;
+        margin-bottom:-0.3245em;
     }
 }
 
@@ -1300,101 +1320,134 @@ var {
     body {
         font-weight: normal;
     }
+
     h1 {
         font-size: xx-large;
         /* sayısal değer kullanmamak daha doğru sonuç veriyor */
         margin: 0 0 3em 0;
         /* mobi7 virgüllü değerleri desteklemiyor */
     }
+
     h2 {
         font-size: x-large;
         margin: 2em 0 1em 0;
     }
+
     h3 {
         font-size: large;
         margin: 1em 0;
     }
+
     h4 {
         font-size: medium;
         margin: 1em 0 0 0;
     }
+
     b {
         font-weight: bold;
     }
+
     strong {
         font-weight: bold;
     }
+
     .bold, .kalin {
         font-weight: bold;
     }
+
     small {
         font-size: small;
     }
+
     .small-caps, .kucuk-harfler {
         font-size: small;
     }
+
     sub {
         font-size: x-small;
     }
+
     sup {
         font-size: x-small;
     }
+
     hr {
         margin: 1em 0;
     }
+
     .margin-top-s, .bosluk-ust-s {
         margin-top: 1em;
     }
+
     .margin-top-m, .bosluk-ust-m {
         margin-top: 2em;
     }
+
     .margin-top-l, .bosluk-ust-l {
         margin-top: 3em;
     }
+
     .margin-top-xl, .bosluk-ust-xl {
         margin-top: 5em;
     }
+
     .margin-top-2xl, .bosluk-ust-2xl {
         margin-top: 6em;
     }
+
     .hanging-indent, .girinti-devamli {
         margin-left: 0;
         /* negatif "text-indent" için */
     }
+
     .footnote, .dipnot {
         font-size: medium;
     }
+
     ul {
         margin: 1em 0;
     }
+
     ol {
         margin: 1em 0;
     }
+
     blockquote {
         margin: 1em 5%;
     }
+
     dl {
         margin: 1em 5%;
     }
+
     dt {
         margin-top: 1em;
     }
+
     pre {
         margin: 1em 0;
     }
+
     table {
         margin: 1em 0;
     }
+
     .float-left, .hizala-sol {
         float: none;
         /* Mobi 7 "float" desteklemiyor */
         margin: 1em 0;
         text-align: center;
     }
+
     .float-right, .hizala-sag {
         float: none;
         margin: 1em 0;
         text-align: center;
+    }
+
+    .dropcaps, .ilk-buyuk-harf {
+        font-size:3em;
+        font-weight: bold;
     }
 }
 
