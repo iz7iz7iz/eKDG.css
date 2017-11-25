@@ -862,6 +862,18 @@ var {
     margin-right: 0;
 }
 
+.margin-top-3xs, .bosluk-ust-3xs {
+    margin-top: 0.1em;
+}
+
+.margin-top-2xs, .bosluk-ust-2xs {
+    margin-top: 0.25em;
+}
+
+.margin-top-xs, .bosluk-ust-xs {
+    margin-top: 0.5em;
+}
+
 .margin-top-s, .bosluk-ust-s {
     margin-top: 0.75em;
 }
@@ -878,8 +890,24 @@ var {
     margin-top: 4.5em;
 }
 
-.margin-top-xxl, .bosluk-ust-xxl {
+.margin-top-2xl, .bosluk-ust-2xl {
     margin-top: 6em;
+}
+
+.margin-top-3xl, .bosluk-ust-3xl {
+    margin-top: 10em;
+}
+
+.margin-bottom-3xs, .bosluk-alt-3xs {
+    margin-bottom: 0.1em;
+}
+
+.margin-bottom-2xs, .bosluk-alt-2xs {
+    margin-bottom: 0.25em;
+}
+
+.margin-bottom-xs, .bosluk-alt-xs {
+    margin-bottom: 0.5em;
 }
 
 .margin-bottom-s, .bosluk-alt-s {
@@ -898,8 +926,27 @@ var {
     margin-bottom: 4.5em;
 }
 
-.margin-bottom-xxl, .bosluk-alt-xxl {
+.margin-bottom-2xl, .bosluk-alt-2xl {
     margin-bottom: 6em;
+}
+
+.margin-bottom-3xl, .bosluk-alt-3xl {
+    margin-bottom: 10em;
+}
+
+.margin-left-3xs, .bosluk-sol-3xs {
+    margin-left: 0.1%;
+    /* % kullanıcı tarafından ayarlanmış yazı büyüklüğü ile kaymıyor */
+}
+
+.margin-left-2xs, .bosluk-sol-2xs {
+    margin-left: 0.5%;
+    /* % kullanıcı tarafından ayarlanmış yazı büyüklüğü ile kaymıyor */
+}
+
+.margin-left-xs, .bosluk-sol-xs {
+    margin-left: 1%;
+    /* % kullanıcı tarafından ayarlanmış yazı büyüklüğü ile kaymıyor */
 }
 
 .margin-left-s, .bosluk-sol-s {
@@ -919,8 +966,27 @@ var {
     margin-left: 10%;
 }
 
-.margin-left-xxl, .bosluk-sol-xxl {
+.margin-left-2xl, .bosluk-sol-2xl {
     margin-left: 15%;
+}
+
+.margin-left-3xl, .bosluk-sol-3xl {
+    margin-left: 25%;
+}
+
+.margin-right-3xs, .bosluk-sag-3xs {
+    margin-right: 0.1%;
+    /* % kullanıcı tarafından ayarlanmış yazı büyüklüğü ile kaymıyor */
+}
+
+.margin-right-2xs, .bosluk-sag-2xs {
+    margin-right: 0.5%;
+    /* % kullanıcı tarafından ayarlanmış yazı büyüklüğü ile kaymıyor */
+}
+
+.margin-right-xs, .bosluk-sag-xs {
+    margin-right: 1%;
+    /* % kullanıcı tarafından ayarlanmış yazı büyüklüğü ile kaymıyor */
 }
 
 .margin-right-s, .bosluk-sag-s {
@@ -940,8 +1006,12 @@ var {
     margin-right: 10%;
 }
 
-.margin-right-xxl, .bosluk-sag-xxl {
+.margin-right-2xl, .bosluk-sag-2xl {
     margin-right: 15%;
+}
+
+.margin-right-3xl, .bosluk-sag-3xl {
+    margin-right: 25%;
 }
 
 
@@ -1260,7 +1330,7 @@ var {
     .margin-top-xl, .bosluk-ust-xl {
         margin-top: 5em;
     }
-    .margin-top-xxl, .bosluk-ust-xxl {
+    .margin-top-2xl, .bosluk-ust-2xl {
         margin-top: 6em;
     }
     .hanging-indent, .girinti-devamli {
