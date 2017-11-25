@@ -1133,7 +1133,17 @@ var {
 
 /* Font sizes */
 
-.fs-xxs, .yb-xxs {
+.fs-3xs, .yb-3xs {
+    font-size: 0.5em;
+    line-height: 1.65;
+}
+
+.fs-2xs, .yb-2xs {
+    font-size: 0.75em;
+    line-height: 1.80;
+}
+
+.fs-2xs, .yb-2xs {
     font-size: 0.8125em;
     line-height: 1.84615385;
 }
@@ -1163,12 +1173,12 @@ var {
     line-height: 1.14285714;
 }
 
-.fs-xxl, .yb-xxl {
+.fs-2xl, .yb-2xl {
     font-size: 1.4375em;
     line-height: 1.04347826;
 }
 
-.fs-jumbo, .yb-jumbo {
+.fs-3xl, .yb-3xl {
     font-size: 1.625em;
     line-height: 0.92307692;
 }
