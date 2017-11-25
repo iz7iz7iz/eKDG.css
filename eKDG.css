@@ -1099,8 +1099,16 @@ var {
 
 /* Girintiler */
 
+.indent-s, .girinti-s {
+    text-indent: 0.5em;
+}
+
 .indent, .girinti {
     text-indent: 1em;
+}
+
+.indent-m, .girinti-m {
+    text-indent: 2em;
 }
 
 
@@ -1110,9 +1118,15 @@ var {
     text-indent: 0;
 }
 
-.hanging-indent, .girinti-devamli {
-    text-indent: -5%;
-    margin-left: 5%;
+.hanging-indent-s, .girinti-devamli-s {
+    text-indent: -2.5%;
+    margin-left: 2.5%;
+    /* Since em will reflow with font-size user setting, we’re using % */
+}
+
+.hanging-indent-m, .girinti-devamli-m {
+    text-indent: -10%;
+    margin-left: 10%;
     /* Since em will reflow with font-size user setting, we’re using % */
 }
 
