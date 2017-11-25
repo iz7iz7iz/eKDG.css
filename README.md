@@ -1,5 +1,5 @@
 <div align="center">
-<img src="ekdg-css-logo.png">
+<img src="ekdg-css-logo.svg">
 
 Hızlıca eKitap hazırlamak için bir CSS kütüphanesi
 
