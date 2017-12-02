@@ -741,6 +741,12 @@ var {
     height: 10%;
 }
 
+/* @supports kısmındaki kodlar Calibre'nin güzelleştirme özelliği uygulandıktan 
+   sonra bozuluyor. Sınıf isimlerinden önceki noktalardan sonra boşluk ekleniyor.
+   ePub yayınlama ve/veya mobi'ye çevirme öncesinde bu bu kodların düzgün yazılı
+   olduğundan emin olun.
+*/
+
 @supports (height: 100vh) {
     /* Alanlar ve resimler için kullanılabilir. Fakat resimler için kullanıldığında .tam-sayfa-resim sınıfı ile birlikte kullanılmalıdır */
     .h-100, .y-100 {
@@ -1288,6 +1294,10 @@ var {
 
 /* KINDLE */
 
+/* @media ile başlayan kısımlar Calibre'nin güzelleştirme özelliği ile 
+   ile siliniyor. ePub yayınlama ve/veya mobi'ye çevirme öncesinde bu
+   bu kodların yerinde olduğuna emin olun.
+*/
 @media amzn-kf8 {
     body {
         font-weight: normal;
