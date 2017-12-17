@@ -2,12 +2,12 @@
 
 /*  eKDG.css — Hızlıca eKitap hazırlamak için bir CSS kütüphanesi
     Sürüm 0.2 (alpha) by iz (iz7iz7iz@gmail.com)                         
-    Lisans: MIT (https://opensource.org/licenses/MIT)   */
+    Lisans: MIT (https://opensource.org/licenses/MIT)           */
 
 @namespace h "http://www.w3.org/1999/xhtml/";
 html {
-    /* Biçimlendirme olarak kullanılmadı. Yukarıda herhangi bir şey yanlış giderse; 
-  ilk darbeyi buranın alması için yazıldı.  */
+    /*  Biçimlendirme olarak kullanılmadı. Yukarıda herhangi bir şey yanlış giderse; 
+        ilk darbeyi buranın alması için yazıldı.  */
 }
 
 
@@ -418,7 +418,7 @@ img {
 }
 
 
-/* Not: Tam sayfa resim ve altyazı biçimlerdirme çok sorunlu */
+/* Not: Tam sayfa resim ve altyazı biçimlendirme çok sorunlu */
 
 
 /* Kullanılan CSS tekniğini incelemek için: https://github.com/jstallent/ImagesSingleFile */
@@ -534,7 +534,7 @@ hr.yildiz {
     height: 1.5em;
     text-indent: 0;
     text-align: center;
-    background: transparent url(../Images/yildiz.svg) no-repeat center; 
+    background: transparent url(../Images/yildiz.svg) no-repeat center;
     background-size: 2.5em 1.25em;
     /* RMSDK desteklemiyor -> yeniden ölçeklendirilemeyecek fakat büyük ölçekte farklı yazı tipi boyutları ile sorunsuz çalışıyor */
     overflow: hidden;
@@ -890,7 +890,6 @@ var {
 
 .clear,
 .temizle {
-    /* may be useful if an element is floating in a container */
     clear: both;
 }
 
@@ -1035,25 +1034,25 @@ var {
 .margin-left-3xs,
 .bosluk-sol-3xs {
     margin-left: 0.1%;
-    /* % kullanıcı tarafından ayarlanmış yazı büyüklüğü ile kaymıyor */
+    /* % kullanıcı tarafından ayarlanmış yazı büyüklüğü ile kaymıyor (reflow) */
 }
 
 .margin-left-2xs,
 .bosluk-sol-2xs {
     margin-left: 0.5%;
-    /* % kullanıcı tarafından ayarlanmış yazı büyüklüğü ile kaymıyor */
+    /* % kullanıcı tarafından ayarlanmış yazı büyüklüğü ile kaymıyor (reflow) */
 }
 
 .margin-left-xs,
 .bosluk-sol-xs {
     margin-left: 1%;
-    /* % kullanıcı tarafından ayarlanmış yazı büyüklüğü ile kaymıyor */
+    /* % kullanıcı tarafından ayarlanmış yazı büyüklüğü ile kaymıyor (reflow) */
 }
 
 .margin-left-s,
 .bosluk-sol-s {
     margin-left: 2.5%;
-    /* % kullanıcı tarafından ayarlanmış yazı büyüklüğü ile kaymıyor */
+    /* % kullanıcı tarafından ayarlanmış yazı büyüklüğü ile kaymıyor (reflow) */
 }
 
 .margin-left-m,
@@ -1084,25 +1083,25 @@ var {
 .margin-right-3xs,
 .bosluk-sag-3xs {
     margin-right: 0.1%;
-    /* % kullanıcı tarafından ayarlanmış yazı büyüklüğü ile kaymıyor */
+    /* % kullanıcı tarafından ayarlanmış yazı büyüklüğü ile kaymıyor (reflow) */
 }
 
 .margin-right-2xs,
 .bosluk-sag-2xs {
     margin-right: 0.5%;
-    /* % kullanıcı tarafından ayarlanmış yazı büyüklüğü ile kaymıyor */
+    /* % kullanıcı tarafından ayarlanmış yazı büyüklüğü ile kaymıyor (reflow) */
 }
 
 .margin-right-xs,
 .bosluk-sag-xs {
     margin-right: 1%;
-    /* % kullanıcı tarafından ayarlanmış yazı büyüklüğü ile kaymıyor */
+    /* % kullanıcı tarafından ayarlanmış yazı büyüklüğü ile kaymıyor (reflow) */
 }
 
 .margin-right-s,
 .bosluk-sag-s {
     margin-right: 2.5%;
-    /* % kullanıcı tarafından ayarlanmış yazı büyüklüğü ile kaymıyor */
+    /* % kullanıcı tarafından ayarlanmış yazı büyüklüğü ile kaymıyor (reflow) */
 }
 
 .margin-right-m,
@@ -1247,18 +1246,18 @@ var {
 .girinti-devamli-s {
     text-indent: -2.5%;
     margin-left: 2.5%;
-    /* Since em will reflow with font-size user setting, we’re using % */
+    /* em kullanıcı ayarlı yazı tipi büyüklüğü ile kayacağı (reflow) için % kullanıyoruz */
 }
 
 .hanging-indent-m,
 .girinti-devamli-m {
     text-indent: -10%;
     margin-left: 10%;
-    /* Since em will reflow with font-size user setting, we’re using % */
+    /* em kullanıcı ayarlı yazı tipi büyüklüğü ile kayacağı (reflow) için % kullanıyoruz */
 }
 
 
-/* Font sizes */
+/* Yazı Büyüklükleri */
 
 .fs-4xs,
 .yb-4xs {
